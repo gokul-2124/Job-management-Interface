@@ -4,7 +4,6 @@ const API_BASE_URL = 'https://job-management-admin-interface-olive.vercel.app/ap
 
 // const API_BASE_URL = 'http://localhost:5000/api'; 
 
-// Fetch jobs with optional filters
 export const getJobs = async (filters = {}) => {
   try {
     const response = await axios.get(`${API_BASE_URL}/jobs`, { params: filters });

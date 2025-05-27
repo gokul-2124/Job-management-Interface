@@ -1,6 +1,6 @@
 const express = require('express');
 const { Pool } = require('pg');
-const pool = require('../db'); // import the pool
+const pool = require('../db'); 
 
 require('dotenv').config();
 
